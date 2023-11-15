@@ -1,0 +1,74 @@
+.BtnHome{
+    cursor: pointer;
+    background-color: #6184db;
+    border-radius: 100%;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.BtnHome:hover{
+    background-color:#1a3579;
+    transform: scale(1.1);
+}
+
+.BtnAprendizaje {
+    cursor: pointer;
+    background-color: #6184db;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    left: 270px;
+   
+}
+
+.BtnAprendizaje:hover{
+    background-color: #1a3579;
+    transform: scale(1.1);
+}
+
+.ImgIcono {
+    width: 40px;
+    height: 40px;
+}
+
+.ImgCuento{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 30px;
+    margin: auto;
+
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #6184db;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.contenido_cuento{
+    text-align:justify;
+    margin: 15px;
+    
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.azul-subrayado {
+    color: #6184db;
+    text-decoration: underline;
+}
+
+
+
