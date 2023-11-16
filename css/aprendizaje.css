@@ -7,9 +7,20 @@
     margin: 10px;
 }
 
-.BtnHome:hover{
+.BtnHome, .BtnAtras:hover{
     background-color: #1a3579;
     transform: scale(1.1);
+}
+
+.BtnAtras {
+    cursor: pointer;
+    background-color: #6184db;
+    border-radius: 100%;
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 150px;
 }
 
 .ImgIcono{
@@ -30,4 +41,44 @@ h1 {
     font-size: 30px;
     text-align: center;
     color: #6184db;
+}
+
+.palabra{
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.ImgCuento{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+    margin: 30px;
+}
+
+.BtnRelacion{
+    
+    background-color: #9CEC58;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 150px;
+}
+
+.BtnNoRelacion{
+    background-color: crimson;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 150px;
+
+}
+
+.ImgCuento--verde{
+    border: 100px;
 }
