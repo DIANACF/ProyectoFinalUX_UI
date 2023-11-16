@@ -21,7 +21,7 @@
                 speakWord(words[currentIndex]);
                 currentIndex++;
             } else {
-                isReading = false; // Restablecer el estado de lectura
+                isReading = false; 
             }
         }
 
@@ -35,15 +35,15 @@
         function speakWord(word) {
             utterance = new SpeechSynthesisUtterance(word);
             utterance.onend = function () {
-                readWords(); // Continuar leyendo después de que la palabra se haya hablado
+                readWords(); 
             };
             speechSynthesis.speak(utterance);
         }
 
         function stopSpeech() {
             isReading = false;
-            speechSynthesis.cancel(); // Detener la síntesis de voz
-            currentIndex--; // Retroceder una palabra para reanudar desde donde se detuvo
+            speechSynthesis.cancel(); 
+            currentIndex--; 
         }
 
         function removeHighlight() {
@@ -54,7 +54,7 @@
         function resumeSpeech() {
             if (!isReading) {
                 isReading = true;
-                readWords(); // Reanudar la lectura desde donde se detuvo
+                readWords(); 
             }
         }
 

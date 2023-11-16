@@ -1,29 +1,29 @@
 .highlight {
-    background-color: yellow; /* Cambia el color de fondo al texto leído */
-    transition: background-color 0.3s ease; /* Agrega una transición para suavizar el cambio de color */
+    background-color: yellow; 
+    transition: background-color 0.3s ease; 
   }
 
 button {
-    background-color: #FFD54F; /* Color de fondo para los botones */
-    color: #333; /* Color del texto */
+    background-color: #FFD54F; 
+    color: #333; 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 24px; /* Tamaño de fuente */
+    font-size: 24px; 
     transition: background-color 0.3s ease;
 }
 
-/* Estilos específicos para cada botón */
+
 button:nth-of-type(1) {
-    margin-right: 10px; /* Añade margen a la derecha del primer botón */
+    margin-right: 10px; 
 }
 
 button i {
-    margin: 0 5px; /* Alinea el icono dentro del botón */
+    margin: 0 5px; 
 }
 
-/* Cambia el color de fondo al pasar el ratón por encima */
+
 button:hover {
     background-color: #FFB74D;
 }
