@@ -11,6 +11,7 @@
 .BtnHome:hover{
     background-color:#1a3579;
     transform: scale(1.1);
+    
 }
 
 .BtnAprendizaje {
@@ -68,6 +69,90 @@ p {
 .azul-subrayado {
     color: #6184db;
     text-decoration: underline;
+}
+
+@media (min-width:400px){
+
+    .BtnHome{
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .ImgIcono{
+        width: 100px;
+        height: 100px;
+    }
+    .contenedor_Img-Titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        margin: 0;
+        text-align: center;
+        overflow: hidden;
+    }
+
+
+    .ImgCuento__Identificador {
+        width: 450px;
+        height: 450px;
+        margin-left: 110px;
+        
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+
+
+    .BtnAprendizaje {
+        position: relative;
+        bottom: 0;
+        left: 90%
+        
+    }
+    
+    .ImgCuento--Derecha{
+        width: 400px;
+        height: 400px;
+        margin-left: 1100px;
+        position: relative;
+        bottom: 400px;
+    }
+
+    .ImgCuento--Izquierda{
+        width: 400px;
+        height: 400px;
+        margin-left: 100px;
+        position: relative;
+        bottom: 400px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    .parr--Izquierda{
+    
+        max-width: 900px;
+        margin-left: 150px;
+        margin-top: 100px;
+        text-align: justify;
+    }
+
+    .parr--Derecha{
+
+        max-width: 900px;
+        margin-left: 620px;
+        text-align: justify;
+        bottom: 400px;
+
+
+    }
+
+    
 }
 
 
