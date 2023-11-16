@@ -14,12 +14,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(58, 15, 15);
+    color:  #6184db;
   }
   
-  .header_text h1 {
-    font-size: 3em;
+  .main-title {
+    text-align: center;
+    font-size: 100%;
     font-family: 'Comic Sans MS', cursive; 
+    margin-top: 20px; 
+    margin-bottom: 90PX;
   }
   
   .content {
@@ -40,7 +43,7 @@
   }
   
   .contenido_cuento{
-    border: 3px solid #3f51b5;
+    border: 3px solid#1a3579;
     padding: 20px;
     border-radius: 30px; 
     background-color: #eceff1; 
@@ -68,5 +71,5 @@
   h2 {
     margin-top: 10px;
     font-family: 'Comic Sans MS', cursive;
-    color: #f44336; 
+    color: #6184db; 
   }

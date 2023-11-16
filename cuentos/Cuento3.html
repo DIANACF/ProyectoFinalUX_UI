@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/cuentos.css">
+    <link rel="stylesheet" href="../css/lectura.css">
+    <script src="https://kit.fontawesome.com/ad873e5358.js" crossorigin="anonymous"></script>
+
     <title>LA ZORRA Y EL LEÓN</title>
 </head>
 <body>
@@ -25,47 +28,54 @@
 
 
     <section class="contenido_cuento">
-        <p>
-            Erase una vez un <span class="azul-subrayado">león</span>  con mucha hambre que vivía en el bosque. 
-            Un buen día buscando ocasión para encontrar presa fácil que 
-            llevarse al estomago se encontró con una oveja y le preguntó 
-            que le parecía su aliento.
-        </p>
+        <button onclick="startSpeech()"><i class="fas fa-play"></i></button>
+        <button onclick="stopSpeech()"><i class="fas fa-stop"></i></button> 
+        <button onclick="resumeSpeech()"><i class="fas fa-redo"></i></button>
 
-        <img src="../imagenes/leon.jpg" alt="ImgLeon" class="ImgCuento">
+        <div  id="textToRead">
+            <p>
+                Erase una vez un <span class="azul-subrayado">león</span>  con mucha hambre que vivía en el bosque. 
+                Un buen día buscando ocasión para encontrar presa fácil que 
+                llevarse al estomago se encontró con una oveja y le preguntó 
+                que le parecía su aliento.
+            </p>
+    
+            <img src="../imagenes/leon.jpg" alt="ImgLeon" class="ImgCuento">
+    
+            <p>
+                La <span class="azul-subrayado">oveja</span> sin pensar mucho el riesgo o las consecuencias le 
+                respondió con sinceridad que era apestoso. Entonces el león 
+                fingió sentirse ofendido, le dio un golpe y la mató a la vez 
+                que le decía: “Por haber ofendido a tu rey, eso es lo que te 
+                has ganado” y se la comió.
+            </p>
+    
+            <img src="../imagenes/oveja.jpg" alt="ImgOveja" class="ImgCuento">
+    
+            <p>
+                Tras un rato el león volvió a hacerle la misma pregunta a una 
+                cabra que deambulaba por allí. La <span class="azul-subrayado">cabra</span> que había visto lo que 
+                le había ocurrido a su amiga la oveja temió por su vida y le 
+                respondió que su aliento era maravilloso. El león se molestó, 
+                la mató y se la comió al tiempo que le decía “Por adularme con 
+                falsedades es lo que te mereces”.
+            </p>
+    
+            <img src="../imagenes/cabra.jpg" alt="ImgCabra" class="ImgCuento">
+            <p>
+                A continuación se dirigió a la <span class="azul-subrayado">zorra</span> que también había observado 
+                las dos situaciones anteriores y le repitió la misma pregunta. 
+                La zorra, algo más astuta viéndose venir que podía acabar como 
+                la oveja o la cabra, se alejó de él y desde la distancia le habló: 
+                “De buena fe, le informo que no puedo responder a su pregunta puesto 
+                que el resfriado que poseo me impide percibir su aliento”. Así se 
+                salvo la zorra de ser devorada por el león.  
+            </p>
+    
+            <img src="../imagenes/zorra.jpg" alt="ImgZorra" class="ImgCuento">    
 
-        <p>
-            La <span class="azul-subrayado">oveja</span> sin pensar mucho el riesgo o las consecuencias le 
-            respondió con sinceridad que era apestoso. Entonces el león 
-            fingió sentirse ofendido, le dio un golpe y la mató a la vez 
-            que le decía: “Por haber ofendido a tu rey, eso es lo que te 
-            has ganado” y se la comió.
-        </p>
-
-        <img src="../imagenes/oveja.jpg" alt="ImgOveja" class="ImgCuento">
-
-        <p>
-            Tras un rato el león volvió a hacerle la misma pregunta a una 
-            cabra que deambulaba por allí. La <span class="azul-subrayado">cabra</span> que había visto lo que 
-            le había ocurrido a su amiga la oveja temió por su vida y le 
-            respondió que su aliento era maravilloso. El león se molestó, 
-            la mató y se la comió al tiempo que le decía “Por adularme con 
-            falsedades es lo que te mereces”.
-        </p>
-
-        <img src="../imagenes/cabra.jpg" alt="ImgCabra" class="ImgCuento">
-        <p>
-            A continuación se dirigió a la <span class="azul-subrayado">zorra</span> que también había observado 
-            las dos situaciones anteriores y le repitió la misma pregunta. 
-            La zorra, algo más astuta viéndose venir que podía acabar como 
-            la oveja o la cabra, se alejó de él y desde la distancia le habló: 
-            “De buena fe, le informo que no puedo responder a su pregunta puesto 
-            que el resfriado que poseo me impide percibir su aliento”. Así se 
-            salvo la zorra de ser devorada por el león.  
-        </p>
-
-        <img src="../imagenes/zorra.jpg" alt="ImgZorra" class="ImgCuento">
-
+        </div>
+        
     </section>
 
     <div>
@@ -75,5 +85,7 @@
             </button>
         </a>
     </div>
+    <script src="../js/script.js"></script>
+
 </body>
 </html>
