@@ -93,3 +93,77 @@ h1 {
 .ImgCuento--rojo{
     border: 10px solid crimson;
 }
+
+@media(min-width:400px){
+    .BtnHome{
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 5px;
+    }
+
+    .BtnAtras{
+        left: 50%;
+        padding: 5px;
+    }
+
+    .ImgIcono{
+        width: 100px;
+        height: 100px;
+    }
+
+    .ImgTitulo{
+        width: 1200px;
+        height: 500px;
+        position: relative;
+        left: 170px;
+        bottom: 100px;
+        
+    }
+
+    h1{
+        font-size: 100px;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .contenido_Aprendizaje{
+        margin-left: 50px;
+        
+    }
+
+
+    .palabra{
+        font-size: 70px;
+    }
+
+    .contenedor{
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .ImgCuento{
+        width: 300px;
+        height: 350px;
+        
+    }
+
+    .contenedorImg{
+        display: flex;
+        align-items: center;
+        height: 50vh;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+        
+    }
+
+    .cont_Btn{
+        position: relative;
+        top: 290px;
+        right: 380px;
+    
+    }
+
+}
